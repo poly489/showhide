@@ -9,25 +9,81 @@ $(document).mousemove(function(e){
 })
 
 $(document).ready(function() {
-    const $circle = $('#cursor-circle');
-
-    // Function to change circle size on scroll wheel
-    function changeCircleSize(event) {
-        const delta = event.originalEvent.deltaY; // Get the scroll delta
-        
-        // Calculate the change in size based on the scroll direction
-        const newSize = $circle.width() + (delta > 0 ? -50 : 50); // Decrease size on scroll down, increase on scroll up
-        
-        // Set the new size to the circle
-        $circle.css({
-            'width': newSize + 'px',
-            'height': newSize + 'px'
+    $('.circle').hover(function() {
+        // When a circle is hovered over, increase the size of the cursor circle
+        $('.cursor-circle').css({
+            'width': '60px',
+            'height': '60px'
         });
-        
-        // Prevent the default scroll behavior
-        event.preventDefault();
-    }
+    }, function() {
+        // When the mouse leaves a circle, reset the size of the cursor circle
+        $('.cursor-circle').css({
+            'width': '60px',
+            'height': '60px'
+        });
+    });
+});
 
-    // Add wheel event listener to change circle size
-    $circle.on('wheel', changeCircleSize);
+$(document).ready(function() {
+    $('#circle2').hover(function() {
+        // When a circle is hovered over, increase the size of the cursor circle
+        $('.cursor-circle').css({
+            'width': '90px',
+            'height': '90px'
+        });
+    }, function() {
+        // When the mouse leaves a circle, reset the size of the cursor circle
+        $('.cursor-circle').css({
+            'width': '150px',
+            'height': '150px'
+        });
+    });
+});
+
+$(document).ready(function() {
+    $('#circle3').hover(function() {
+        // When a circle is hovered over, increase the size of the cursor circle
+        $('.cursor-circle').css({
+            'width': '200px',
+            'height': '200px'
+        });
+    }, function() {
+        // When the mouse leaves a circle, reset the size of the cursor circle
+        $('.cursor-circle').css({
+            'width': '200px',
+            'height': '200px'
+        });
+    });
+});
+
+$(document).ready(function() {
+    $('#circle4').hover(function() {
+        // When a circle is hovered over, increase the size of the cursor circle
+        $('.cursor-circle').css({
+            'width': '350px',
+            'height': '350px'
+        });
+    }, function() {
+        // When the mouse leaves a circle, reset the size of the cursor circle
+        $('.cursor-circle').css({
+            'width': '350px',
+            'height': '350px'
+        });
+    });
+});
+
+$(document).ready(function() {
+    $('#circle5').hover(function() {
+        // When a circle is hovered over, increase the size of the cursor circle
+        $('.cursor-circle').css({
+            'width': '1000px',
+            'height': '1000px'
+        });
+    }, function() {
+        // When the mouse leaves a circle, reset the size of the cursor circle
+        $('.cursor-circle').css({
+            'width': '1000px',
+            'height': '1000px'
+        });
+    });
 });
