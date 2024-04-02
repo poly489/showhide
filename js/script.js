@@ -28,8 +28,8 @@ $(document).ready(function() {
     $('#circle2').hover(function() {
         // When a circle is hovered over, increase the size of the cursor circle
         $('.cursor-circle').css({
-            'width': '90px',
-            'height': '90px'
+            'width': '150px',
+            'height': '150px'
         });
     }, function() {
         // When the mouse leaves a circle, reset the size of the cursor circle
