@@ -44,14 +44,14 @@ $(document).ready(function() {
     $('#circle3').hover(function() {
         // When a circle is hovered over, increase the size of the cursor circle
         $('.cursor-circle').css({
-            'width': '200px',
-            'height': '200px'
+            'width': '250px',
+            'height': '250px'
         });
     }, function() {
         // When the mouse leaves a circle, reset the size of the cursor circle
         $('.cursor-circle').css({
-            'width': '200px',
-            'height': '200px'
+            'width': '250px',
+            'height': '250px'
         });
     });
 });
@@ -60,14 +60,14 @@ $(document).ready(function() {
     $('#circle4').hover(function() {
         // When a circle is hovered over, increase the size of the cursor circle
         $('.cursor-circle').css({
-            'width': '350px',
-            'height': '350px'
+            'width': '450px',
+            'height': '450px'
         });
     }, function() {
         // When the mouse leaves a circle, reset the size of the cursor circle
         $('.cursor-circle').css({
-            'width': '350px',
-            'height': '350px'
+            'width': '450px',
+            'height': '450px'
         });
     });
 });
@@ -76,14 +76,14 @@ $(document).ready(function() {
     $('#circle5').hover(function() {
         // When a circle is hovered over, increase the size of the cursor circle
         $('.cursor-circle').css({
-            'width': '1000px',
-            'height': '1000px'
+            'width': '2000px',
+            'height': '2000px'
         });
     }, function() {
         // When the mouse leaves a circle, reset the size of the cursor circle
         $('.cursor-circle').css({
-            'width': '1000px',
-            'height': '1000px'
+            'width': '2000px',
+            'height': '2000px'
         });
     });
 });
