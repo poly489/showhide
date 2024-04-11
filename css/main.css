@@ -25,7 +25,7 @@ body {
 
 .line{
     width:100%;
-    height:2px;
+    height:0.1%;
     background-color:#FFF8F2;
     position:absolute;
     top:4%;
@@ -42,7 +42,7 @@ body {
 
 #titles{
     text-align: left;
-    font-size: 10px;
+    font-size: 0.7em;
     position: relative;
     top: 6%;
     left:25%;
@@ -68,8 +68,8 @@ body {
 }
 
 .circle{
-    height: 30px;
-    width: 30px;
+    height: 5%;
+    width: 2.4%;
     border-radius: 50%;
     border:2px solid #FFF8F2;
     background-color:#001379;
@@ -86,19 +86,19 @@ body {
 }
 
 #circle1{
-    top:10%;   
+    top:15%;   
 }
 #circle2{
-    top:20%;
+    top:25%;
 }
 #circle3{
-    top:30%;
+    top:35%;
 }
 #circle4{
-    top:40%;
+    top:45%;
 }
 #circle5{
-    top:50%;
+    top:55%;
 }
 
 #speakers{
@@ -230,7 +230,7 @@ body {
 
 .letter {
     font-family: "Times Dot";
-    font-size:90px;
+    font-size:6em;
     color:#001379;
     position:absolute;
     z-index:-1;
@@ -256,7 +256,7 @@ body {
     left:110%;
 }
 
-@media (max-width:900px){
+@media (max-width:1000px){
     body{
         overflow:scroll;
         cursor:auto;
